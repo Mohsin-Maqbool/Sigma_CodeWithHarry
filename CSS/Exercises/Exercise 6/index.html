@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Navbar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .navbar .logo {
+            /* font-size: 24px;
+            font-weight: bold; */
+            margin-left: 50px;
+            /* width: auto;
+            height: 40px; */
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            margin-left: 30%;
+            padding: 0;
+            font-size: 22px;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            color: #ddd;
+        }
+
+        .navbar .cta {
+            /* background-color: #f90; */
+            padding: 10px 20px;
+            /* border-radius: 5px; */
+            /* text-decoration: none;
+            color: #fff;
+            font-weight: bold; */
+            margin-right: 30px;
+
+        }
+
+        /* .navbar .cta:hover {
+            background-color: #e80;
+        } */
+
+        .navbar-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .navbar ul li {
+                margin: 10px 0;
+                text-align: left;
+                width: 100%;
+            }
+
+            .navbar .cta {
+                margin-top: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="./Images/logo.png" alt=""></div>
+        <div class="navbar-container">
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Security and Compliance</a></li>
+            </ul>
+            <a href="#" class="cta"><img src="./Images/li.png" alt=""></a>
+        </div>
+    </nav>
+</body>
+
+</html>

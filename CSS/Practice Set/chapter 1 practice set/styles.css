@@ -1,0 +1,78 @@
+#head{
+    background-color: lightgreen;
+}
+.one{
+    background-color: brown;
+    color: yellow;
+}
+
+.two{
+    background-color: green;
+    /* color: yellow; */
+}
+.three{
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.four{
+   text-align: center;
+   margin: 20px 10px auto 10px;
+}
+
+.five{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+/* Task 5 */
+/* Key CSS Rules */
+
+        /* Background and Color */
+        .background-color {
+            background-color: lightblue;
+            color: darkblue;
+        }
+
+        /* Border */
+        .border {
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        /* Padding and Margin */
+        .spacing {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Text Alignment and Decoration */
+        .text-style {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        /* Box Shadow */
+        .box-shadow {
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Flexbox */
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightgray;
+        }
+
+        .flex-item {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }

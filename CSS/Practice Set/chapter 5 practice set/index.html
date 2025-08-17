@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Odin Recipes</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* Responsive Navbar */
+        nav {
+            background-color: blue;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            /* z-index: 1000; */
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 1em;
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        ul li:hover {
+            background-color: darkblue;
+            cursor: pointer;
+        }
+
+        .one {
+            border: 2px solid black;
+            margin: 1rem;
+            display: inline-block;
+            width: 20rem;
+            padding: 20px;
+        }
+
+        /* Demonstrate the use of list-style property */
+        .styled-list {
+            list-style: square inside;
+            margin-top: 2em;
+            text-align: left;
+        }
+
+        .styled-list li {
+            margin: 0.5em 0;
+        }
+
+        main {
+            padding: 1em;
+        }
+        #one{
+            background-color: aqua;
+            color: blue;
+            z-index: 1;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Recipes</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="one" id="one">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et autem error dolore ullam mollitia
+                molestias totam, placeat cumque a doloribus architecto necessitatibus laboriosam commodi sed maiores
+                quis nam ducimus quisquam hic non. Impedit exercitationem, corrupti consequatur id quisquam inventore
+                hic, explicabo obcaecati in ex fugiat sed nisi laborum non reiciendis maiores quae quas quis autem
+                delectus. Maxime a veniam, quas in similique autem aut iste tenetur at, laboriosam officia cumque porro!
+                Voluptatibus, iste inventore veniam fugit aperiam ipsa explicabo fugiat quam, qui voluptas vero,
+                provident ex iusto odit minima blanditiis perspiciatis. Itaque, minus nesciunt. Laborum optio officia
+                recusandae ipsum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, similique velit perferendis
+                repudiandae tenetur nostrum culpa odio. Fuga totam tempora beatae vel, aliquam a, autem sunt
+                voluptatibus iste neque explicabo, quod distinctio. Ullam in exercitationem minus dolore ut tempore,
+                necessitatibus nobis corrupti molestiae iure labore.
+            </div>
+            <div class="one">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae maiores nostrum iure, magni
+                pariatur aliquid? Hic quas quis, similique pariatur corporis nisi rerum vero delectus voluptatibus
+                architecto debitis, placeat aut harum incidunt accusantium porro laboriosam maiores? Enim error
+                temporibus voluptatum perferendis commodi accusamus, modi eos itaque ullam expedita, eligendi sed
+                blanditiis illum quas nihil ducimus aspernatur tenetur autem doloribus qui a vitae inventore? Placeat
+                magni facilis eos? Sed cum quae expedita a laudantium distinctio eveniet impedit asperiores non
+                voluptatum exercitationem veniam, sequi voluptatem enim facilis pariatur voluptates quas ducimus
+                delectus quos, vitae sunt aut dicta aperiam. Animi, iste! Exercitationem.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, similique velit perferendis
+                repudiandae tenetur nostrum culpa odio. Fuga totam tempora beatae vel, aliquam a, autem sunt
+                voluptatibus iste neque explicabo, quod distinctio. Ullam in exercitationem minus dolore ut tempore,
+                necessitatibus nobis corrupti molestiae iure labore.
+            </div>
+            <div class="one">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae maiores nostrum iure, magni
+                pariatur aliquid? Hic quas quis, similique pariatur corporis nisi rerum vero delectus voluptatibus
+                architecto debitis, placeat aut harum incidunt accusantium porro laboriosam maiores? Enim error
+                temporibus voluptatum perferendis commodi accusamus, modi eos itaque ullam expedita, eligendi sed
+                blanditiis illum quas nihil ducimus aspernatur tenetur autem doloribus qui a vitae inventore? Placeat
+                magni facilis eos? Sed cum quae expedita a laudantium distinctio eveniet impedit asperiores non
+                voluptatum exercitationem veniam, sequi voluptatem enim facilis pariatur voluptates quas ducimus
+                delectus quos, vitae sunt aut dicta aperiam. Animi, iste! Exercitationem.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, similique velit perferendis
+                repudiandae tenetur nostrum culpa odio. Fuga totam tempora beatae vel, aliquam a, autem sunt
+                voluptatibus iste neque explicabo, quod distinctio. Ullam in exercitationem minus dolore ut tempore,
+                necessitatibus nobis corrupti molestiae iure labore.
+            </div>
+            <div class="one">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae maiores nostrum iure, magni
+                pariatur aliquid? Hic quas quis, similique pariatur corporis nisi rerum vero delectus voluptatibus
+                architecto debitis, placeat aut harum incidunt accusantium porro laboriosam maiores? Enim error
+                temporibus voluptatum perferendis commodi accusamus, modi eos itaque ullam expedita, eligendi sed
+                blanditiis illum quas nihil ducimus aspernatur tenetur autem doloribus qui a vitae inventore? Placeat
+                magni facilis eos? Sed cum quae expedita a laudantium distinctio eveniet impedit asperiores non
+                voluptatum exercitationem veniam, sequi voluptatem enim facilis pariatur voluptates quas ducimus
+                delectus quos, vitae sunt aut dicta aperiam. Animi, iste! Exercitationem.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, similique velit perferendis
+                repudiandae tenetur nostrum culpa odio. Fuga totam tempora beatae vel, aliquam a, autem sunt
+                voluptatibus iste neque explicabo, quod distinctio. Ullam in exercitationem minus dolore ut tempore,
+                necessitatibus nobis corrupti molestiae iure labore.
+            </div>
+            <div class="one">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae maiores nostrum iure, magni
+                pariatur aliquid? Hic quas quis, similique pariatur corporis nisi rerum vero delectus voluptatibus
+                architecto debitis, placeat aut harum incidunt accusantium porro laboriosam maiores? Enim error
+                temporibus voluptatum perferendis commodi accusamus, modi eos itaque ullam expedita, eligendi sed
+                blanditiis illum quas nihil ducimus aspernatur tenetur autem doloribus qui a vitae inventore? Placeat
+                magni facilis eos? Sed cum quae expedita a laudantium distinctio eveniet impedit asperiores non
+                voluptatum exercitationem veniam, sequi voluptatem enim facilis pariatur voluptates quas ducimus
+                delectus quos, vitae sunt aut dicta aperiam. Animi, iste! Exercitationem.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, similique velit perferendis
+                repudiandae tenetur nostrum culpa odio. Fuga totam tempora beatae vel, aliquam a, autem sunt
+                voluptatibus iste neque explicabo, quod distinctio. Ullam in exercitationem minus dolore ut tempore,
+                necessitatibus nobis corrupti molestiae iure labore.
+            </div>
+      

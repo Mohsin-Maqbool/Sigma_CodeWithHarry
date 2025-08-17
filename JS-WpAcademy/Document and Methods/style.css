@@ -1,0 +1,131 @@
+/*
+* JavaScript DOM Methods & Document
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+header, footer, section, aside, nav {
+    display: block;
+}
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/**************
+* Header 
+**************/
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #f0f0f0;
+}
+header img {
+    max-width: 250px;
+    height: auto;
+}
+/**************
+* Navigation 
+**************/
+nav {
+    width: 100%;
+    background: #333333;
+    height: 50px;
+}
+nav ul {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 50px;
+    text-decoration: none;
+    border-right: 2px solid #222222;
+}
+nav ul li:first-child a {
+    border-left: 2px solid #222222;
+}
+nav ul li a:hover {
+    color: orange;
+}
+/**************
+* Content 
+**************/
+.container {
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content, .sidebar {
+    float: left;
+}
+.content {
+    width: 70%;
+}
+.sidebar {
+    width: 25%;
+    margin-left: 5%;
+}
+.home-row {
+    background: #f0f0f0;
+    text-align: center;
+    margin-top: 30px;
+}
+.home-row p {
+    padding: 50px;
+}
+.red {color: red}
+.green {color: green}
+/**************
+* Footer 
+**************/
+footer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #333333;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.footer-container {
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.footer-widget {
+    float: left;
+    width: 25%;
+}
+.footer-widget ul {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    list-style: square;
+}
+.footer-widget ul li {
+    margin-left: 20px;
+    color: #f0f0f0;
+}
+.footer-widget ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+}

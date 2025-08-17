@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multi Color Website</title>
+
+    <!-- Style 1 -->
+
+    <!-- <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary-color: rgb(142, 187, 84);
+            --text-color: white;
+            --secondary-color: rgb(33, 121, 156);
+        }
+
+        body {
+            background-color: var(--primary-color);
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            padding: 20px;
+            color: var(--text-color);
+            /* text-align: center; */
+
+        }
+    </style> -->
+
+    <!-- style 2 -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+        :root {
+            --primary-color: lightblue;
+            --text-color: white;
+            --secondary-color: green;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins";
+        }
+        body {
+            background-color: var(--primary-color);
+           
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 12px 0px;
+        }
+
+        ul li {
+            display: inline;
+            padding: 23px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: var(--text-color);
+
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav 1 -->
+    <!-- <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav> -->
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

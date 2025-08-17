@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Form Validation</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <h1>Contact Form</h1>
+        </header>
+        <section class="form-container">
+            <form action="thanks.html" class="contact-form" onsubmit="return validateForm();">
+                <div class="form-row">
+                    <input type="text" name="fname" id="firstName" class="form-input" placeholder="First Name">
+                </div>
+                <div class="form-row">
+                    <input type="text" name="lname" id="lastName" class="form-input" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <input type="email" name="email" id="userEmail" class="form-input" placeholder="someone@name.com">
+                </div>
+                <div class="form-row extra-margin">
+                    <div class="form-col">
+                        <select name="budget" id="userBudget">
+                            <option value="0">Select Your Budget</option>
+                            <option value="1">$500 - $1000</option>
+                            <option value="2">$1000 - $5000</option>
+                            <option value="3">$10,000 - $50,000</option>
+                        </select>
+                    </div>
+                    <div class="form-col">
+                        <select name="budget" id="findUs">
+                            <option value="0">How did you find us?</option>
+                            <option value="1">Google</option>
+                            <option value="2">Facebook</option>
+                            <option value="3">YouTube</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <input type="radio" name="gender" id="userGender1" class="form-input"> Male
+                    <input type="radio" name="gender" id="userGender2" class="form-input"> Female
+                </div>
+                <div class="form-row submit-row">
+                    <input type="submit" name="submit" id="formSubmit" class="form-submit" value="Submit Form">
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>Copyright &copy; Mohsin Maqbool</p>
+        </footer>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
